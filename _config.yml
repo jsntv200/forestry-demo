@@ -1,7 +1,7 @@
 title: Belkirk College of Engineering
 short_title: Belkirk
 description: Belkirk Demo Site for Forestry.io
-baseurl:
+baseurl: https://jsntv200.github.io/forestry-demo
 permalink: "/:path/"
 defaults:
   - scope:
@@ -27,7 +27,7 @@ collections:
 jekyll-archives:
   enabled: all
   layout: "archive"
-gems:
+plugins:
   - jekyll-menus
   - jekyll-feed
   - jekyll-archives
