@@ -3,11 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>{{ page.title }} - {{ site.title }} - test</title>
+  <title>{{ page.title }} - {{ site.title }}</title>
   <meta name="description" content="{% if .page.description %}{{ .page.description }}{% else %}{{ .site.description }}{% endif %}">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <base href="https://jsntv200.github.io/forestry-demo"/>
-  <link rel="icon" type="image/png" href="{{ "/img/favicon.png" | absolute_url }}"/>
+  <link rel="icon" type="image/png" href="{{ "/img/favicon.png" | relative_url }}"/>
   <link rel="stylesheet" href="https://yui-s.yahooapis.com/pure/0.6.0/pure-min.css">
   <!--[if lte IE 8]>
   <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-old-ie-min.css">
@@ -15,6 +14,6 @@
   <!--[if gt IE 8]><!-->
   <link rel="stylesheet" href="https://yui-s.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
   <!--<![endif]-->
-  <link rel="stylesheet" href="{{ "/css/main.min.css" | absolute_url }}">
+  <link rel="stylesheet" href="{{ "/css/main.min.css" | relative_url }}">
 </head>
 <body>
