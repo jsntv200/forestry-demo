@@ -27,3 +27,7 @@ fields:
   type: text
   hidden: false
   default: ''
+- type: text
+  name: new_test_field
+  label: New Test Field
+  description: Testing what happens
