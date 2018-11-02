@@ -21,3 +21,5 @@ Test overviw... Resident Professors Murphy Tiernan and Kelly Brewer have collabo
 
 * Edition One - 2016
 * Edition Two - 2017
+
+![](/uploads/2017/11/13/CNODES-logo-lg.jpg)
