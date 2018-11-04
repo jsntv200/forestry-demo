@@ -154,7 +154,7 @@ plugins:
 - jekyll-menus
 - jekyll-feed
 - jekyll-archives
-timezone: Etc/UTC
+timezone: Australia/Sydney
 
         </div>
     </div>
